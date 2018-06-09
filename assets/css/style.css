@@ -1,0 +1,69 @@
+* {
+    font-family: Bowlby One SC;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: red;
+    /* background-image: url("assets/images/future.jpeg"); */
+}
+/* this is the top of the page */
+header {
+    background: red;
+    padding: 20px;
+}
+/* this is the text at the top */
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 72px;
+}
+/* the scorbard */
+.score {
+    border: 3px solid black;
+    width: 220px;
+    background: darkorange;
+    padding: 18px auto;
+    color: white;
+    font-size: 44px;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+}
+.badge{ background-color: aqua;
+    font-size: 19px;
+    padding: 3px 10px;
+}
+#Yes-label{position: absolute;
+    top: 15px;
+    left: -32px;
+    border: 1px solid black;
+}
+#No-label{
+    position: absolute;
+    top: 15px;
+    right: -32px;
+    border: 1px solid black;
+}
+
+
+
+.result {
+    display: none;
+    text-align: center;
+   
+}
+button {
+    background-color: red;
+    color: red;
+    width: 70px;
+    border: 0px;
+    border-radius: 50%;
+    cursor: crosshair;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+
+}
